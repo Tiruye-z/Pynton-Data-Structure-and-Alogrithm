@@ -1,1 +1,1 @@
-print("hey beautiful girl")
+print("hello world")

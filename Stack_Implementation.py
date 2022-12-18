@@ -27,7 +27,7 @@ class stack_implementation():
         top_value = self.top()
         
         removed_value = self.stack.remove(top_value)
-        return removed_value
+        return top_value
 
 # creating object
 list = stack_implementation()
@@ -39,14 +39,9 @@ list.push(50)
 
 # storing the list of array in result varaible
 result = list.stack
-
-# storing the list of array that the top is removed
-result2 = list.pop()
-
+list.pop()
 #printing the list of array
 print(result)
 
-#print the list of array that the top is removed
-print(result2)
 
 
